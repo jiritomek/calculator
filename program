@@ -1,0 +1,23 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int Promena1, Promena2;
+  string JakaFunkce;
+
+  cout << "Zadej 2 cisla";
+  cin>>Promena1;
+  cin>>Promena2;
+
+  cout << "Jakou funkci chces?" << endl;
+  cin>>JakaFunkce;
+
+  if (JakaFunkce=="plus") {cout <<Promena1+Promena2;}
+  if (JakaFunkce=="minus") {cout <<Promena1-Promena2;}
+  if (JakaFunkce=="krat") {cout <<Promena1*Promena2;}
+  if (JakaFunkce=="deleno") {cout <<Promena1/Promena2;}
+
+  return 0;
+}
